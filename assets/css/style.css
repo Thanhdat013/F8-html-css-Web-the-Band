@@ -9,7 +9,6 @@ html {
 body {
   font-family: "lato", sans-serif;
   font-size: 1.5rem;
-  margin: 0;
 }
 
 :root {
@@ -19,11 +18,6 @@ body {
 
 a {
   text-decoration: none;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
 }
 
 /*  Common */
@@ -167,4 +161,57 @@ ul {
 .container_info--desc {
   margin: 30px 0 50px;
   line-height: 1.5;
+}
+
+/* The Band */
+
+.band {
+  display: block;
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 88px;
+}
+
+.band_title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 3rem;
+  letter-spacing: 4px;
+}
+
+.band_hobbit {
+  display: block;
+  text-align: center;
+  margin-top: 32px;
+  font-style: italic;
+  opacity: 0.6;
+}
+
+.band_desc {
+  margin-top: 32px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.band_row {
+  display: flex;
+  margin-top: 74px;
+  align-items: center;
+}
+.band_row--wrap {
+  width: calc(100% / 3);
+  padding: 0 50px;
+}
+
+.band_row--wrap--name {
+  display: block;
+  text-align: center;
+}
+
+.band_row--wrap--img {
+  margin-top: 20px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 2px;
 }
