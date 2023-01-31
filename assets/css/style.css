@@ -83,13 +83,22 @@ ul {
   background-color: #fff;
 }
 
+.header_nav--menu--list > li:hover .header_nav--menu--extra {
+  background-color: #ccc;
+  color: #000;
+}
+
+.header_nav--menu--list > li:hover .header_nav--menu--down {
+  color: #000;
+}
+
 .header_nav--menu--item {
   display: none;
   background-color: #fff;
   position: absolute;
   width: 160px;
   text-align: left;
-  box-shadow: 1px 1px #ccc;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
   top: 46px;
   left: 0;
 }
@@ -126,4 +135,36 @@ ul {
 .header_nav--search:hover {
   cursor: pointer;
   background-color: red;
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.container_img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.container_info {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  text-align: center;
+  right: 0;
+  left: 0;
+}
+
+.container_info--title {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.container_info--desc {
+  margin: 30px 0 50px;
+  line-height: 1.5;
 }
