@@ -29,7 +29,11 @@ ul {
 /*  Common */
 
 /* Header */
-.header {
+
+.header_fixed {
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .header_nav {
@@ -37,13 +41,13 @@ ul {
   height: 46px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header_nav--menu--list {
   width: 100%;
   display: flex;
   align-items: center;
-  margin-right: auto;
 }
 
 .header_nav--menu--list li {
@@ -103,4 +107,23 @@ ul {
 .header_nav--menu--down {
   display: inline-block;
   color: #fff;
+}
+
+/* Header_nav--search */
+.header_nav--search {
+  width: 62px;
+  height: 46px;
+}
+
+.header_nav--search--icon {
+  display: block;
+  font-size: 2rem;
+  text-align: center;
+  padding: 13px 0;
+  color: #fff;
+}
+
+.header_nav--search:hover {
+  cursor: pointer;
+  background-color: red;
 }
