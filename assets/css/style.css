@@ -350,7 +350,7 @@ a {
 /* Contact */
 
 .contact {
-  margin: 88px 0 114px;
+  padding: 88px 0 114px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -421,4 +421,38 @@ a {
   margin-top: 16px;
   color: var(--text-color);
   background: var(--primary-color);
+}
+
+/* ============================ Location ======================= */
+.location {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* =================== Footer ====================== */
+.footer {
+  margin-top: 70px;
+}
+
+.footer_social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_social--icon + .footer_social--icon {
+  margin-left: 8px;
+}
+
+.footer_social--icon {
+  font-size: 2.5rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer_social {
+  margin: 30px 0 55px;
+}
+
+.footer_social a {
+  color: var(--primary-color);
 }
