@@ -70,7 +70,7 @@
       </div>
 
       <!-- Band -->
-      <div id="band" class="band">
+      <div id="band" class="band content">
         <h2 class="band_title">THE BAND</h2>
         <p class="band_hobbit">We love music</p>
         <p class="band_desc">
@@ -117,76 +117,129 @@
       <!-- Tour -->
 
       <div id="tour" class="tour">
-        <h2 class="tour_title">TOUR DATES</h2>
-        <p class="tour_desc">Remember to book your tickets!</p>
-        <div class="tour_sell">
-          <ul>
-            <li>
-              September
-              <div class="tour_sell--status">Sold out</div>
-            </li>
+        <div class="content">
+          <h2 class="tour_title">TOUR DATES</h2>
+          <p class="tour_desc">Remember to book your tickets!</p>
+          <div class="tour_sell">
+            <ul>
+              <li>
+                September
+                <div class="tour_sell--status">Sold out</div>
+              </li>
 
-            <li>
-              October
-              <div class="tour_sell--status">Sold out</div>
-            </li>
-            <li>
-              November
-              <div class="tour_sell--remain">3</div>
-            </li>
-          </ul>
+              <li>
+                October
+                <div class="tour_sell--status">Sold out</div>
+              </li>
+              <li>
+                November
+                <div class="tour_sell--remain">3</div>
+              </li>
+            </ul>
+          </div>
+          <div class="tour-location">
+            <div class="tour_wrap">
+              <img
+                src="./assets/img/NY_city.jpg"
+                alt="New York"
+                class="tour_wrap--image"
+              />
+              <div class="tour_wrap--box">
+                <h3 class="tour_wrap--title">New York</h3>
+                <p class="tour_wrap--date">Fri 27 Nov 2016</p>
+                <p class="tour_wrap--desc">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <button class="tour_wrap--btn">
+                  <p class="tour_wrap--btn-ticket">Buy Tickets</p>
+                </button>
+              </div>
+            </div>
+            <div class="tour_wrap">
+              <img
+                src="./assets/img/LA_city.jpg"
+                alt="Paris"
+                class="tour_wrap--image"
+              />
+              <div class="tour_wrap--box">
+                <h3 class="tour_wrap--title">Paris</h3>
+                <p class="tour_wrap--date">Sat 28 Nov 2016</p>
+                <p class="tour_wrap--desc">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <button class="tour_wrap--btn">
+                  <p class="tour_wrap--btn-ticket">Buy Tickets</p>
+                </button>
+              </div>
+            </div>
+            <div class="tour_wrap">
+              <img
+                src="./assets/img/chicago_city.jpg"
+                alt="San Francisco"
+                class="tour_wrap--image"
+              />
+              <div class="tour_wrap--box">
+                <h3 class="tour_wrap--title">San Francisco</h3>
+                <p class="tour_wrap--date">Fri 27 Nov 2016</p>
+                <p class="tour_wrap--desc">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <button class="tour_wrap--btn">
+                  <p class="tour_wrap--btn-ticket">Buy Tickets</p>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="tour-location">
-          <div class="tour_wrap">
-            <img
-              src="./assets/img/NY_city.jpg"
-              alt="New York"
-              class="tour_wrap--image"
-            />
-            <div class="tour_wrap--box">
-              <h3 class="tour_wrap--title">New York</h3>
-              <p class="tour_wrap--date">Fri 27 Nov 2016</p>
-              <p class="tour_wrap--desc">
-                Praesent tincidunt sed tellus ut rutrum sed vitae justo.
-              </p>
-              <button class="tour_wrap--btn">
-                <p class="tour_wrap--btn-ticket">Buy Tickets</p>
-              </button>
+      </div>
+
+      <!-- Contact -->
+      <div id="contact" class="contact content">
+        <h2 class="contact_title">CONTACT</h2>
+        <p class="contact_desc">Fan? Drop a note!</p>
+        <div class="contact_info">
+          <div class="contact_info--wrap">
+            <div class="contact_info--wrap--contact">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="contact_info--wrap--name">Chicago, US</div>
+            </div>
+            <div class="contact_info--wrap--contact">
+              <i class="fa-solid fa-phone"></i>
+              <div class="contact_info--wrap--name">Phone: +00 151515</div>
+            </div>
+            <div class="contact_info--wrap--contact">
+              <i class="fa-solid fa-envelope"></i>
+              <div class="contact_info--wrap--name">Email: mail@mail.com</div>
             </div>
           </div>
-          <div class="tour_wrap">
-            <img
-              src="./assets/img/LA_city.jpg"
-              alt="Paris"
-              class="tour_wrap--image"
-            />
-            <div class="tour_wrap--box">
-              <h3 class="tour_wrap--title">Paris</h3>
-              <p class="tour_wrap--date">Sat 28 Nov 2016</p>
-              <p class="tour_wrap--desc">
-                Praesent tincidunt sed tellus ut rutrum sed vitae justo.
-              </p>
-              <button class="tour_wrap--btn">
-                <p class="tour_wrap--btn-ticket">Buy Tickets</p>
-              </button>
+          <div class="contact_info--form">
+            <div class="contact_info--form--wrap">
+              <input
+                type="text"
+                placeholder="Name"
+                required
+                name="name"
+                class="contact_info--form--input"
+              />
+              <input
+                type="text"
+                placeholder="Email"
+                required
+                name="Email"
+                class="contact_info--form--input"
+              />
             </div>
-          </div>
-          <div class="tour_wrap">
-            <img
-              src="./assets/img/chicago_city.jpg"
-              alt="San Francisco"
-              class="tour_wrap--image"
-            />
-            <div class="tour_wrap--box">
-              <h3 class="tour_wrap--title">San Francisco</h3>
-              <p class="tour_wrap--date">Fri 27 Nov 2016</p>
-              <p class="tour_wrap--desc">
-                Praesent tincidunt sed tellus ut rutrum sed vitae justo.
-              </p>
-              <button class="tour_wrap--btn">
-                <p class="tour_wrap--btn-ticket">Buy Tickets</p>
-              </button>
+            <div class="contact_info--form--title">
+              <input
+                type="text"
+                placeholder="Message"
+                required
+                name="Message"
+                class="contact_info--form--input"
+              />
             </div>
+
+            <button class="contact_into--form--btn">SEND</button>
           </div>
         </div>
       </div>
